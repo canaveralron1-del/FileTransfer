@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Adaptive icon background (Slate900) -->
+    <color name="ic_launcher_background">#0F172A</color>
+
+    <!-- Material3 Light color scheme -->
+    <color name="primary">#4F46E5</color>
+    <color name="onPrimary">#FFFFFF</color>
+    <color name="primaryContainer">#E0E7FF</color>
+    <color name="onPrimaryContainer">#1E1B4B</color>
+    <color name="secondary">#64748B</color>
+    <color name="onSecondary">#FFFFFF</color>
+    <color name="secondaryContainer">#E2E8F0</color>
+    <color name="onSecondaryContainer">#0F172A</color>
+    <color name="tertiary">#6366F1</color>
+    <color name="onTertiary">#FFFFFF</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="onSurface">#0F172A</color>
+    <color name="surfaceVariant">#F1F5F9</color>
+    <color name="onSurfaceVariant">#475569</color>
+    <color name="background">#F8FAFC</color>
+    <color name="onBackground">#0F172A</color>
+    <color name="outline">#94A3B8</color>
+    <color name="outlineVariant">#E2E8F0</color>
+    <color name="error">#DC2626</color>
+    <color name="onError">#FFFFFF</color>
+    <color name="errorContainer">#FEE2E2</color>
+    <color name="onErrorContainer">#7F1D1D</color>
+
+    <!-- Status card background colors (light) -->
+    <color name="status_idle">#F1F5F9</color>
+    <color name="status_success">#DCFCE7</color>
+    <color name="status_error">#FEE2E2</color>
+    <color name="status_transfer">#DBEAFE</color>
+    <color name="status_sending">#3B82F6</color>
+    <color name="status_done">#22C55E</color>
+    <color name="status_failed">#EF4444</color>
+
+    <!-- File type icon colors -->
+    <color name="file_image">#EC4899</color>
+    <color name="file_video">#8B5CF6</color>
+    <color name="file_audio">#F59E0B</color>
+    <color name="file_archive">#14B8A6</color>
+    <color name="file_code">#06B6D4</color>
+    <color name="file_apk">#10B981</color>
+    <color name="file_document">#64748B</color>
+
+    <!-- Palette: Emerald -->
+    <color name="pal_emerald_primary">#059669</color>
+    <color name="pal_emerald_onPrimary">#FFFFFF</color>
+    <color name="pal_emerald_primaryContainer">#A7F3D0</color>
+    <color name="pal_emerald_onPrimaryContainer">#022C22</color>
+    <color name="pal_emerald_secondary">#6B7280</color>
+    <color name="pal_emerald_onSecondary">#FFFFFF</color>
+    <color name="pal_emerald_secondaryContainer">#E5E7EB</color>
+    <color name="pal_emerald_onSecondaryContainer">#111827</color>
+    <color name="pal_emerald_tertiary">#0D9488</color>
+    <color name="pal_emerald_onTertiary">#FFFFFF</color>
+
+    <!-- Palette: Violet -->
+    <color name="pal_violet_primary">#7C3AED</color>
+    <color name="pal_violet_onPrimary">#FFFFFF</color>
+    <color name="pal_violet_primaryContainer">#DDD6FE</color>
+    <color name="pal_violet_onPrimaryContainer">#2E1065</color>
+    <color name="pal_violet_secondary">#6D28D9</color>
+    <color name="pal_violet_onSecondary">#FFFFFF</color>
+    <color name="pal_violet_secondaryContainer">#EDE9FE</color>
+    <color name="pal_violet_onSecondaryContainer">#1E0A3C</color>
+    <color name="pal_violet_tertiary">#4F46E5</color>
+    <color name="pal_violet_onTertiary">#FFFFFF</color>
+
+    <!-- Palette: Teal -->
+    <color name="pal_teal_primary">#0D9488</color>
+    <color name="pal_teal_onPrimary">#FFFFFF</color>
+    <color name="pal_teal_primaryContainer">#99F6E4</color>
+    <color name="pal_teal_onPrimaryContainer">#042F2E</color>
+    <color name="pal_teal_secondary">#14B8A6</color>
+    <color name="pal_teal_onSecondary">#FFFFFF</color>
+    <color name="pal_teal_secondaryContainer">#CCFBF1</color>
+    <color name="pal_teal_onSecondaryContainer">#042F2E</color>
+    <color name="pal_teal_tertiary">#0284C7</color>
+    <color name="pal_teal_onTertiary">#FFFFFF</color>
+
+    <!-- Palette: Rose -->
+    <color name="pal_rose_primary">#E11D48</color>
+    <color name="pal_rose_onPrimary">#FFFFFF</color>
+    <color name="pal_rose_primaryContainer">#FECDD3</color>
+    <color name="pal_rose_onPrimaryContainer">#4C0519</color>
+    <color name="pal_rose_secondary">#BE185D</color>
+    <color name="pal_rose_onSecondary">#FFFFFF</color>
+    <color name="pal_rose_secondaryContainer">#FCE7F3</color>
+    <color name="pal_rose_onSecondaryContainer">#320F1E</color>
+    <color name="pal_rose_tertiary">#7C3AED</color>
+    <color name="pal_rose_onTertiary">#FFFFFF</color>
+
+    <!-- Palette: Amber -->
+    <color name="pal_amber_primary">#D97706</color>
+    <color name="pal_amber_onPrimary">#FFFFFF</color>
+    <color name="pal_amber_primaryContainer">#FDE68A</color>
+    <color name="pal_amber_onPrimaryContainer">#451A03</color>
+    <color name="pal_amber_secondary">#B45309</color>
+    <color name="pal_amber_onSecondary">#FFFFFF</color>
+    <color name="pal_amber_secondaryContainer">#FEE2E2</color>
+    <color name="pal_amber_onSecondaryContainer">#2D0A02</color>
+    <color name="pal_amber_tertiary">#DC2626</color>
+    <color name="pal_amber_onTertiary">#FFFFFF</color>
+</resources>

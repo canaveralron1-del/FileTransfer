@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.FileTransfer" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/onPrimary</item>
+        <item name="colorPrimaryContainer">@color/primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/onPrimaryContainer</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorOnSecondary">@color/onSecondary</item>
+        <item name="colorSecondaryContainer">@color/secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/onSecondaryContainer</item>
+        <item name="colorTertiary">@color/tertiary</item>
+        <item name="colorOnTertiary">@color/onTertiary</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/onSurface</item>
+        <item name="colorSurfaceVariant">@color/surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/onSurfaceVariant</item>
+        <item name="colorOutline">@color/outline</item>
+        <item name="colorOutlineVariant">@color/outlineVariant</item>
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@color/onError</item>
+        <item name="colorErrorContainer">@color/errorContainer</item>
+        <item name="colorOnErrorContainer">@color/onErrorContainer</item>
+
+        <item name="android:statusBarColor">@color/surface</item>
+        <item name="android:navigationBarColor">@color/surface</item>
+    </style>
+
+    <style name="Theme.FileTransfer" parent="Base.Theme.FileTransfer" />
+
+    <!-- Palette overlays (applied at runtime on top of base theme) -->
+    <style name="ThemeOverlay.App.Palette.Emerald" parent="ThemeOverlay.Material3.Light">
+        <item name="colorPrimary">@color/pal_emerald_primary</item>
+        <item name="colorOnPrimary">@color/pal_emerald_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/pal_emerald_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/pal_emerald_onPrimaryContainer</item>
+        <item name="colorSecondary">@color/pal_emerald_secondary</item>
+        <item name="colorOnSecondary">@color/pal_emerald_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/pal_emerald_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/pal_emerald_onSecondaryContainer</item>
+        <item name="colorTertiary">@color/pal_emerald_tertiary</item>
+        <item name="colorOnTertiary">@color/pal_emerald_onTertiary</item>
+    </style>
+
+    <style name="ThemeOverlay.App.Palette.Violet" parent="ThemeOverlay.Material3.Light">
+        <item name="colorPrimary">@color/pal_violet_primary</item>
+        <item name="colorOnPrimary">@color/pal_violet_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/pal_violet_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/pal_violet_onPrimaryContainer</item>
+        <item name="colorSecondary">@color/pal_violet_secondary</item>
+        <item name="colorOnSecondary">@color/pal_violet_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/pal_violet_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/pal_violet_onSecondaryContainer</item>
+        <item name="colorTertiary">@color/pal_violet_tertiary</item>
+        <item name="colorOnTertiary">@color/pal_violet_onTertiary</item>
+    </style>
+
+    <style name="ThemeOverlay.App.Palette.Teal" parent="ThemeOverlay.Material3.Light">
+        <item name="colorPrimary">@color/pal_teal_primary</item>
+        <item name="colorOnPrimary">@color/pal_teal_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/pal_teal_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/pal_teal_onPrimaryContainer</item>
+        <item name="colorSecondary">@color/pal_teal_secondary</item>
+        <item name="colorOnSecondary">@color/pal_teal_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/pal_teal_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/pal_teal_onSecondaryContainer</item>
+        <item name="colorTertiary">@color/pal_teal_tertiary</item>
+        <item name="colorOnTertiary">@color/pal_teal_onTertiary</item>
+    </style>
+
+    <style name="ThemeOverlay.App.Palette.Rose" parent="ThemeOverlay.Material3.Light">
+        <item name="colorPrimary">@color/pal_rose_primary</item>
+        <item name="colorOnPrimary">@color/pal_rose_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/pal_rose_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/pal_rose_onPrimaryContainer</item>
+        <item name="colorSecondary">@color/pal_rose_secondary</item>
+        <item name="colorOnSecondary">@color/pal_rose_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/pal_rose_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/pal_rose_onSecondaryContainer</item>
+        <item name="colorTertiary">@color/pal_rose_tertiary</item>
+        <item name="colorOnTertiary">@color/pal_rose_onTertiary</item>
+    </style>
+
+    <style name="ThemeOverlay.App.Palette.Amber" parent="ThemeOverlay.Material3.Light">
+        <item name="colorPrimary">@color/pal_amber_primary</item>
+        <item name="colorOnPrimary">@color/pal_amber_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/pal_amber_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/pal_amber_onPrimaryContainer</item>
+        <item name="colorSecondary">@color/pal_amber_secondary</item>
+        <item name="colorOnSecondary">@color/pal_amber_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/pal_amber_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/pal_amber_onSecondaryContainer</item>
+        <item name="colorTertiary">@color/pal_amber_tertiary</item>
+        <item name="colorOnTertiary">@color/pal_amber_onTertiary</item>
+    </style>
+
+    <!-- Custom palette overlay (uses dynamically resolved ?attr/customPrimary etc.) -->
+    <style name="ThemeOverlay.App.Palette.Custom" parent="ThemeOverlay.Material3.Light">
+        <item name="colorPrimary">?attr/customPrimary</item>
+        <item name="colorOnPrimary">?attr/customOnPrimary</item>
+        <item name="colorPrimaryContainer">?attr/customPrimaryContainer</item>
+        <item name="colorOnPrimaryContainer">?attr/customOnPrimaryContainer</item>
+        <item name="colorSecondary">?attr/customSecondary</item>
+        <item name="colorOnSecondary">?attr/customOnSecondary</item>
+        <item name="colorSecondaryContainer">?attr/customSecondaryContainer</item>
+        <item name="colorOnSecondaryContainer">?attr/customOnSecondaryContainer</item>
+        <item name="colorTertiary">?attr/customTertiary</item>
+        <item name="colorOnTertiary">?attr/customOnTertiary</item>
+    </style>
+</resources>

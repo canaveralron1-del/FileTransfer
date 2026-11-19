@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- Shape radii -->
+    <dimen name="card_radius">12dp</dimen>
+    <dimen name="card_radius_small">8dp</dimen>
+    <dimen name="drop_zone_radius">8dp</dimen>
+
+    <!-- Elevation -->
+    <dimen name="elevation_card">1dp</dimen>
+    <dimen name="elevation_toolbar">0dp</dimen>
+</resources>

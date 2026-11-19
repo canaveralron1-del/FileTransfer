@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="customPrimary" format="color" />
+    <attr name="customOnPrimary" format="color" />
+    <attr name="customPrimaryContainer" format="color" />
+    <attr name="customOnPrimaryContainer" format="color" />
+    <attr name="customSecondary" format="color" />
+    <attr name="customOnSecondary" format="color" />
+    <attr name="customSecondaryContainer" format="color" />
+    <attr name="customOnSecondaryContainer" format="color" />
+    <attr name="customTertiary" format="color" />
+    <attr name="customOnTertiary" format="color" />
+</resources>
